@@ -1,0 +1,62 @@
+/* Import a terminal/cyber-like font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap');
+
+body {
+    background-color: #000; /* Black background for a terminal feel */
+    color: #00ff00; /* Green text color */
+    font-family: 'Roboto Mono', monospace; /* Terminal-like monospace font */
+    font-size: 20px; /* Adjust as needed */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#question {
+    margin-bottom: 20px;
+    text-shadow: 0 0 2px #00ff00; /* Glowing effect */
+    line-height: 1.5;
+}
+
+#answer-box {
+    background-color: #000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 20px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+#answer-box:focus {
+    outline: none;
+    box-shadow: 0 0 10px #00ff00;
+}
+
+#submit-answer {
+    background-color: #000;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#submit-answer:hover {
+    background-color: #00ff00;
+    color: #000;
+    text-shadow: none;
+    transition: 0.3s;
+}
+
+#feedback {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+    text-shadow: 0 0 5px red;
+}
