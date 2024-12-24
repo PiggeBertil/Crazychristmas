@@ -1,0 +1,81 @@
+
+/* Background with snowflakes */
+body {
+    background: #004d00; /* Dark green for Christmas */
+    color: #ffffff; /* White text for contrast */
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://www.transparenttextures.com/patterns/snow.png'); /* Subtle snowflake texture */
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Question text styled festively */
+#question {
+    color: #ffcc00; /* Bright gold color for text */
+    font-family: 'Great Vibes', cursive; /* Fancy cursive font for the holidays */
+    font-size: 24px;
+    text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000; /* Red glowing effect */
+    margin-bottom: 20px;
+}
+
+/* Answer box with holiday theme */
+#answer-box {
+    background-color: #ffffff; /* White input field */
+    color: #004d00; /* Dark green text */
+    border: 2px solid #ff0000; /* Red border */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 10px #ffcc00; /* Glowing gold effect */
+}
+
+#answer-box:focus {
+    outline: none;
+    box-shadow: 0 0 15px #ff0000; /* Red glow on focus */
+}
+
+/* Submit button styled as a Christmas gift */
+#submit-answer {
+    background: linear-gradient(to bottom, #ff0000, #cc0000); /* Gradient red background */
+    color: #ffffff; /* White text */
+    border: 2px solid #ffcc00; /* Gold border */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 5px; /* Rounded edges */
+    cursor: pointer;
+    box-shadow: 0 0 10px #ffcc00; /* Gold glow effect */
+}
+
+#submit-answer:hover {
+    background: linear-gradient(to bottom, #cc0000, #ff0000); /* Reverse gradient on hover */
+    text-shadow: 0 0 5px #ffffff; /* White glow */
+    transition: 0.3s;
+}
+
+/* Festive Decorations */
+#image-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+/* Add snow animations */
+@keyframes snow {
+    0% { transform: translateY(-100px); }
+    100% { transform: translateY(100vh); }
+}
+
+.snowflake {
+    position: absolute;
+    top: -50px;
+    color: #ffffff;
+    font-size: 24px;
+    animation: snow 5s linear infinite;
+}

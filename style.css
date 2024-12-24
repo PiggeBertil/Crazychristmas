@@ -60,3 +60,19 @@ body {
     margin-top: 10px;
     text-shadow: 0 0 5px red;
 }
+
+
+/* Add a red border flash effect */
+#answer-box.wrong {
+    border: 2px solid #ff0000; /* Red border */
+    box-shadow: 0 0 10px #ff0000; /* Glow effect */
+    animation: shake 0.3s ease-in-out; /* Shake animation */
+}
+
+@keyframes shake {
+    0% { transform: translateX(-5px); }
+    25% { transform: translateX(5px); }
+    50% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+    100% { transform: translateX(0); }
+}
