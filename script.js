@@ -22,8 +22,8 @@ const quiz = [
   },
   {
     question: "Hmph, you’ve made it farther than I expected. Fine! Here’s a little reward for your trouble. The answer you need is hiding under your chair the one you used to sit on right over there. Don’t make me regret being this generous!",
-    answer: "600",
-    congrats: "Ugh, you found it? Remember that number. Let's call it y!"
+    answer: "89",
+    congrats: "Ugh, you found it? Remember that number. Let's call it x!"
   },
   {
     question: "Oh, you think you’re worldly now? Fine, riddle me this: An island so fair in the Baltic Sea, where medieval walls hide secrets from me. Stones that stand on coastal sand—what’s the name of this treasure in Sweden’s land? Surely you’ll mess this one up!",
@@ -37,11 +37,11 @@ const quiz = [
   },
   {
     question: "Well, well, well... look who clawed their way to the end! Fine, I’ll give you one last choice. Just pick the right one—it shouldn’t be too hard for a so-called genius like you. Or will it? Heh heh heh!",
-    answer: "89",
-    congrats: "How How How! You actually did it?! Bah, don’t expect me to be happy about it! Remember x = 89"
+    answer: "600",
+    congrats: "How How How! You actually did it?! Bah, don’t expect me to be happy about it! Remember y = 600"
   },
   {
-    question: "All right here is the last hint! (🐕*y - ⛰️)*(🐕/5 + 🐕/5) - x https://www.rapidtables.com/convert/number/decimal-to-binary.html",
+    question: "All right here is the last hint! ((🐕+5)*y - ⛰️)*(🐕/5 + 🐕/5 + 2) - x https://www.rapidtables.com/convert/number/decimal-to-binary.html",
     answer: "Got it!",
     congrats: "How How How! You actually did it?! Bah, don’t expect me to be happy about it!"
   }
