@@ -41,7 +41,7 @@ const quiz = [
     congrats: "How How How! You actually did it?! Bah, don’t expect me to be happy about it! Remember y = 600"
   },
   {
-    question: "All right here is the last hint! ((🐕+5)*y - ⛰️)*(🐕/5 + 🐕/5 + 2) - x https://www.rapidtables.com/convert/number/decimal-to-binary.html",
+    question: "All right here is the last hint! ((🐕+5)*y - ⛰️)*(🐕/5 + 🐕/5 + 2) - x https://www.rapidtables.com/convert/number/decimal-to-binary.html. Now you pick what you like.",
     answer: "Got it!",
     congrats: "How How How! You actually did it?! Bah, don’t expect me to be happy about it!"
   }
